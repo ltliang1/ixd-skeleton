@@ -8,6 +8,11 @@ body, html {
  	background-size: cover;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, li {
 	color: white;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 12pt;
 }
