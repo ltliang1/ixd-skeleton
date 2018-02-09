@@ -1,0 +1,16 @@
+{
+    "tasks": [
+        {
+            "name": "math: 2-500 even"
+        },
+        {
+            "name": "cogs 107B: memorize terms for midterm"
+        },
+        {
+            "name": "cogs 120: finish prototyping"
+        },
+        {
+            "name": "dsgn 100: finish designs"
+        }
+    ]
+}
