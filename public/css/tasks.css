@@ -8,11 +8,22 @@ body, html {
  	background-size: cover;
 }
 
-h1, h2, h3, li {
+h1, h2, h3, h4, li {
 	color: white;
 }
 
 li {
     margin-bottom: 10px;
     font-size: 12pt;
+}
+
+#title {
+    padding: 10px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title h4 {
+    margin-top: 35px;
 }
