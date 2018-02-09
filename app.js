@@ -12,10 +12,9 @@ var index = require('./routes/index');
 // Example route
 // var user = require('./routes/user');
 var tasks = require('./routes/tasks');
+var add = require('./routes/add');
 
 var app = express();
-
-var add = express();
 
 // all environments
 app.set('port', process.env.PORT || 3000);
@@ -41,6 +40,7 @@ app.get('/', index.view);
 // Example route
 // app.get('/users', user.list);
 app.get('/tasks', tasks.view);
+app.get('/add', add.addTask);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
