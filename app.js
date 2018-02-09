@@ -13,6 +13,9 @@ var index = require('./routes/index');
 // var user = require('./routes/user');
 var tasks = require('./routes/tasks');
 var add = require('./routes/add');
+var addClass = require('./routes/addClass');
+var calendar = require('./routes/calendar');
+var social = require('./routes/social');
 
 var app = express();
 
@@ -41,6 +44,9 @@ app.get('/', index.view);
 // app.get('/users', user.list);
 app.get('/tasks', tasks.view);
 app.get('/add', add.addTask);
+app.get('/addClass', addClass.view);
+app.get('/calendar', calendar.view);
+app.get('/social', social.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
