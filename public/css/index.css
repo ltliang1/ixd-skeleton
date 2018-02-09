@@ -1,4 +1,19 @@
+body, html {
+	height: 100%;
+
+	background: url(images/2DForest.jpg) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
 .btn {
+	z-index: 0;
 	margin: 20px;
 	width: 200px;
+}
+
+h1, h3 {
+	color: white;
 }
